@@ -241,7 +241,7 @@ export const SignUpView = () => {
               className="h-[92px] w-[92px]"
               priority
             />
-            <p className="text-2xl font-semibold text-white">NEXUS</p>
+            <p className="text-2xl font-semibold text-white">Talk AI</p>
           </div>
         </CardContent>
       </Card>
