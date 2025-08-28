@@ -9,14 +9,14 @@ import { LoadingState } from '@/components/loading-state';
 export const MeetingView = () => {
   const trpc = useTRPC();
   const { data } = useSuspenseQuery(trpc.meetings.getMany.queryOptions({}));
-  return <div>{JSON.stringify(data)}</div>;
+  return <div>TODO: Data table</div>;
 };
 
 export const MeetingsViewLoading = () => {
   return (
     <LoadingState
       title="Loading Meetings"
-      description="This may take a fews econds"
+      description="This may take a fews seconds"
     />
   );
 };
